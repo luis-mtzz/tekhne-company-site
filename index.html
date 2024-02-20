@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav>
-      <a href="#about">about</a>
-      <a href="#services">services</a>
-      <a href="#contact">contact</a>
-    </nav>
-    <img src="tekhne.png" width="200px" />
-    <h1 style="font-family: monospace;">tekhne</h1>
-    <div id="about">
-      <p>
-        We provide software and services to health clinics of various types such as veterinary and general clinics.
-      </p>
+
+
+    <div>
+      <!-- nav bar -->
+      <nav style="display: flex; justify-content: space-between; background-color: #28282B; padding: 10px; font-size: larger;">
+        <div style="color: azure;">
+          tekhne
+        </div>
+        <div>
+          <a href="#about">about</a>
+          <a href="#services">services</a>
+          <a href="#contact">contact</a>
+        </div>
+      </nav>
+
+      <!-- About section -->
+      <div id="about">
+        <p style="color: azure; padding: 10px">
+          We provide software and services to health clinics of various types such as veterinary and general clinics.
+        </p>
+      </div>
+
+      <!-- Services -->
+      <ul style="color: azure;" id="services">
+        <li>Billing</li>
+        <li>Software</li>
+        <li>Electronic Health Records (EHR)</li>
+      </ul>
+
+      <!-- Contact Info -->
+      <div id="contact" style="color: azure; margin: 10px">
+        email: <a href="mailto:sales@tekhne-health.com">sales@tekhne-health.com</a>
+      </div>  
     </div>
-    <ul id="services">
-      <li>Billing</li>
-      <li>Software</li>
-    </ul>
-    <div id="contact" style="margin: 10px">
-      <a href="mailto:example@example.com">example@example.com</a>
-    </div>
+
+    <!-- Footer -->
+    <footer>
+      <img src="./assets/tekhne-logo.png" width="50px" />
+    </footer>
   </body>
 </html>
