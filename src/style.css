@@ -1,0 +1,26 @@
+body {
+    background-color:#44444d;
+    font-family: 'AgaveNerdFontMono',monospace;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+  
+nav > a {
+    padding: 15px;
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+@font-face {
+    font-family: 'AgaveNerdFontMono';
+    src: url('./fonts/AgaveNerdFontMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
