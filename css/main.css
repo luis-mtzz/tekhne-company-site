@@ -20,7 +20,19 @@ footer {
 
 @font-face {
     font-family: 'AgaveNerdFontMono';
-    src: url('./fonts/AgaveNerdFontMono-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/AgaveNerdFontMono-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
+
+#about-container {
+    background-image: url("../assets/about-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+#contact-bg-8{
+    background-color: aqua;
+}
